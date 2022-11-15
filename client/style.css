@@ -5,16 +5,78 @@
     --background: hsl(218, 23%, 16%);
     --secondary-background: hsl(217, 19%, 24%);
     --tertiary-background: hsl(217, 19%, 38%);
-    --main-green: hsl(193, 38%, 86%);
-    --active-green: hsl(150, 100%, 66%);
+    --light-color: hsl(193, 38%, 86%);
+    --main-green: hsl(150, 100%, 66%);
 
     /* font-styles */
     font-family: 'Manrope', sans-serif;
     font-size: 28px;
+    color: var(--light-color);
 
 
 }
 
+body {
+    background-color: var(--background);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    
+}
+
+.main {
+    width: 350px;
+    max-height: 275px;
+    background-color: var(--secondary-background);
+    padding: 35px 0px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: auto;
+}
+
+.header {
+    color: var(--main-green);
+    letter-spacing: 4px;
+    font-size: .35rem;
+    text-transform: uppercase;
+    /* outline: 1px solid red; */
+    padding: 5px 0px 30px;
+}
+
+.advice {
+    min-height: 120px;
+}
+
+.filler {
+    padding: 10px 0px 20px;
+}
+
+.btn {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    /* height: 40px; */
+}
+
+#randomize {
+    background-color: var(--main-green);
+    padding: 10px;
+    border-radius: 100%;
+    margin: auto;
+    position: absolute;
+    bottom: 160;
+    width: 11%;
+}
+
+.attribution {
+    position: fixed;
+    width: 100%;
+    padding: auto;
+    /* margin: auto; */
+    bottom: 0px;
+    outline: 1px solid lightcoral;
+}
 
 
 @media screen and (min-width: 1440px) {
