@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+    /* primary colors */
+    --background: hsl(218, 23%, 16%);
+    --secondary-background: hsl(217, 19%, 24%);
+    --tertiary-background: hsl(217, 19%, 38%);
+    --main-green: hsl(193, 38%, 86%);
+    --active-green: hsl(150, 100%, 66%);
+
+    /* font-styles */
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+
+
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    
+}
