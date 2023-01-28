@@ -54,19 +54,20 @@ body {
 
 .btn {
     width: 350px;
+    /* align-items: center; */
     display: flex;
     justify-content: center;
-    /* height: 40px; */
+    
 }
 
 #randomize {
     background-color: var(--main-green);
-    padding: 10px;
+    padding: 12px;
     border-radius: 100%;
-    margin: auto;
+    /* margin: auto; */
     position: absolute;
     bottom: 160;
-    width: 11%;
+    width: 10%;
     max-width: 40px;
 }
 
@@ -79,7 +80,16 @@ body {
     outline: 1px solid lightcoral;
 }
 
+/* Interactivity styles */
+#randomize:hover {
+    transition: ease-in-out;
+    transform: scale(1.1, 1.1);
+    transition-duration: 400ms;
+    cursor: pointer;
+}
 
-@media screen and (min-width: 1440px) {
-    
+#randomize:active {
+    transition: ease-in-out;
+    transition-duration: 300ms;
+    box-shadow: 0 0 10px 2px var(--main-green);
 }
