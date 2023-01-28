@@ -67,6 +67,7 @@ body {
     position: absolute;
     bottom: 160;
     width: 11%;
+    max-width: 40px;
 }
 
 .attribution {
