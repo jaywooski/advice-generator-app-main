@@ -37,7 +37,7 @@ Here's a view of the app live.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution URL on Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-mTrSnea03P)
 - Live Site URL: [Live Site on GitHub](https://jaywooski.github.io/advice-generator-app-main/)
 
 ## My process
