@@ -51,27 +51,6 @@ Here's a view of the app live.
 - [Advice Slip API](https://api.adviceslip.com) - API provider
 
 
-### What I learned
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-
-
-
 ### Useful resources
 
 - [Web Dev Simplified - YouTube](https://www.youtube.com/watch?v=V_Kr9OSfDeU) - This helped me breakdown the use of using the async/await method (syntactic sugar) along with a try/catch method.
