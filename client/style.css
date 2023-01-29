@@ -27,12 +27,11 @@ body {
 
 .main {
     width: 350px;
-    max-height: 275px;
     background-color: var(--secondary-background);
     padding: 35px 0px;
     margin: auto;
     border-radius: 10px;
-    margin-top: auto;
+    overflow: auto;
 }
 
 .header {
@@ -40,12 +39,13 @@ body {
     letter-spacing: 4px;
     font-size: .35rem;
     text-transform: uppercase;
-    /* outline: 1px solid red; */
     padding: 5px 0px 30px;
 }
 
 .advice {
     min-height: 120px;
+    max-width: 330px;
+    margin: auto;
 }
 
 .filler {
@@ -54,7 +54,6 @@ body {
 
 .btn {
     width: 350px;
-    /* align-items: center; */
     display: flex;
     justify-content: center;
     
@@ -64,20 +63,16 @@ body {
     background-color: var(--main-green);
     padding: 12px;
     border-radius: 100%;
-    /* margin: auto; */
     position: absolute;
     bottom: 160;
-    width: 10%;
-    max-width: 40px;
+    width: 40px;
 }
 
 .attribution {
     position: fixed;
     width: 100%;
     padding: auto;
-    /* margin: auto; */
     bottom: 0px;
-    outline: 1px solid lightcoral;
 }
 
 /* Interactivity styles */

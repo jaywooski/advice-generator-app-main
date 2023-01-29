@@ -1,6 +1,7 @@
 // Add query selectors needed for functionality
 const adviceBox = document.querySelector('.advice');
 const adviceButton = document.querySelector('.btn');
+const advice_ID_number = document.querySelector('#advice_id')
 const URL = 'https://api.adviceslip.com/advice';
 
 
@@ -8,15 +9,18 @@ const URL = 'https://api.adviceslip.com/advice';
 async function fetchAdvice() {
     try {
         const response = await fetch(URL)
-        const JSON_Response = await fetch(response.json())
-        console.log(JSON_Response);
+        const JSON_Response = await response.json()
+        const advice = JSON_Response.slip.advice
+        const adviceID = JSON_Response.slip.id
+
+        adviceBox.innerText = advice;
+        advice_ID_number.innerText = `Advice #${adviceID}`;
+        console.log('success!')
         
     } catch (error) {
-        console.error(error);
+        console.log(error);
     }
-    
-    //     const data = await response.json();
-    //    console.log(data);
+   
 }
 // console.log(response);
 
