@@ -30,6 +30,7 @@ Users should be able to:
 ### Screenshot
 
 Here's a view of the app live.
+
 ![View of live app](./design/Running_App.jpg)
 
 
